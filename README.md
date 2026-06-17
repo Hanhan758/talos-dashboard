@@ -12,9 +12,7 @@
   <a href="CHANGELOG.md">更新日志</a>
 </p>
 
-<!-- 截图占位：把 screenshots/hero.png 放进来后取消注释
 ![TALOS Dashboard](screenshots/hero.png)
--->
 
 <p>
   <img alt="License" src="https://img.shields.io/badge/license-AGPL--3.0-blue.svg">
@@ -38,7 +36,20 @@
 
 ## 🎬 Demo
 
-> 截图与动图首版待补。计划清单见 [`screenshots/README.md`](screenshots/README.md)。
+![完整视图](screenshots/full-page.png)
+
+<details>
+<summary><b>📸 模块特写（点击展开）</b></summary>
+
+| 模块 | 截图 |
+|---|---|
+| 侧栏 · 时钟 / 快速入口 / TELOS 目标 / 倒计时 | ![Sidebar](screenshots/sidebar.png) |
+| 活跃项目卡片网格 | ![Projects](screenshots/projects.png) |
+| 命令路由 + Memo | ![Commands](screenshots/commands.png) |
+
+</details>
+
+> 动图 demo（入场动画 + 悬停弹跳）首版待补，规格见 [`screenshots/README.md`](screenshots/README.md)。
 
 ## 📦 快速开始
 
