@@ -24,7 +24,19 @@
 
 ---
 
-> **TALOS**（Talos Articulated Lattice of Operating Self）是 [外脑玩家 Haaper](https://github.com/外脑玩家) 提出的「个人上下文操作系统」理论框架——把一个人的目标、价值观、项目、笔记、决策、习惯结构化成可被任何 AI 调用的「上下文资产」。本项目是 TALOS 控制台的**官方开源实现**：一张 `dashboard.html` 把整套系统聚合为 Obsidian 启动首页。
+> [!IMPORTANT]
+> **项目状态：最终版本 / 停止维护。**
+> 这是早期「超级大脑」的插件雏形，也是开始尝试数据统计与前端交互时的创意项目。
+> 当前维护者后续不会继续功能开发或日常维护；仓库保留最后版本与历史资料。
+> 欢迎有能力的开发者基于 AGPL-3.0 fork、研究并继续维护，但请自行验证兼容性、依赖、
+> 数据安全与后续改动。
+
+**TALOS Dashboard** 是最早期的超级大脑插件想法之一。它尝试把知识库、项目和系统状态
+从文件结构转换成可见、可浏览、可交互的前端界面，也是后来 TALOS 插件方向的早期雏形。
+
+这个项目投入的时间和精力有限，没有发展成持续维护的成熟产品。它不是当前完整 TALOS，
+也不是现行产品架构或数据模型；它的主要价值是记录数据统计如何成为产品入口，并为总览、
+模块切换、局部特写和响应式布局提供前端交互思路。
 
 ## ✨ 特性
 
@@ -98,6 +110,14 @@ python3 refresh-dashboard.py --vault /path/to/your/vault
 - 视觉与「一页式工作台」形态启发自 **[Apex Dashboard](https://github.com/PandoraReads/apex-dashboard)** by PandoraReads。
 - 信念金句与项目叙事来自 **TALOS** 个人上下文操作系统理论框架。
 
+## 🧭 维护状态
+
+- 当前仓库是本项目的**最终历史版本**，原作者不再安排后续功能开发或日常维护。
+- Issues 和 Pull Requests 不保证得到回复、审查或合并。
+- 欢迎有能力的开发者 fork 后继续维护、适配新版本或探索新的交互方向。
+- 继续维护者需要自行核对 Obsidian、Dataview、Homepage、Python 及其他环境兼容性。
+- 公开分发、截图复用与衍生设计仍需遵守 AGPL-3.0、TALOS 品牌边界及相关第三方权利。
+
 ## 📄 License
 
 代码以 **[AGPL-3.0](LICENSE)** 开源。
@@ -117,6 +137,6 @@ python3 refresh-dashboard.py --vault /path/to/your/vault
 
 <div align="center">
 
-如果这张仪表盘启发了你，欢迎 star ⭐ / 分享 / 提 issue。
+如果这张早期仪表盘启发了你，欢迎 star ⭐、分享、fork，并在自己的分支继续探索和维护。
 
 </div>
