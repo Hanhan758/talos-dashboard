@@ -2,7 +2,7 @@
 
 # TALOS Dashboard
 
-### 个人上下文操作系统的可视化控制台 · Obsidian 一页式工作台首页
+### 超级大脑早期交互探索 · 已停止维护的 Obsidian 仪表盘
 
 <p>
   <a href="#-快速开始">快速开始</a> ·
@@ -38,6 +38,12 @@
 也不是现行产品架构或数据模型；它的主要价值是记录数据统计如何成为产品入口，并为总览、
 模块切换、局部特写和响应式布局提供前端交互思路。
 
+## 与当前 TALOS 的关系
+
+当前 TALOS 围绕个人与企业的数据管理、学习路径和大模型实际应用演进。首版以规范方案包与 Obsidian 插件配套，完整产品仍在建设与验证。
+
+本仓库保留早期实现和交互经验，不是新首版安装入口，也不恢复功能维护。当前方向见 [TALOS Framework](https://github.com/Hanhan758/talos-framework)；公开框架 [v0.5 正式版](https://github.com/Hanhan758/talos-framework/releases/tag/v0.5)已发布，完整软件首版仍在建设与验证。
+
 ## ✨ 特性
 
 - **极光视觉** · 四色漂浮光球、Hero 彩虹流动描边、入场卡片上浮+数字滚动+进度条生长+折线描线动画、悬停微交互；纯 CSS/原生 JS 实现，离线可用，并自动支持 `prefers-reduced-motion` 降级。
@@ -68,7 +74,7 @@
 **前置**：Obsidian 桌面版 + 两个社区插件（Dataview、Homepage）。
 
 ```bash
-git clone https://github.com/外脑玩家/talos-dashboard.git  # 中文 handle，浏览器/IDE 自动处理
+git clone https://github.com/Hanhan758/talos-dashboard.git
 cd talos-dashboard
 ```
 
@@ -130,7 +136,7 @@ python3 refresh-dashboard.py --vault /path/to/your/vault
 
 - 公众号：**外脑玩家**（搜「外脑玩家」关注）
 - X / Twitter：[@Haaper外脑玩家](https://x.com/Haaper外脑玩家)
-- GitHub：[@外脑玩家](https://github.com/外脑玩家)
+- GitHub：[@Hanhan758](https://github.com/Hanhan758)
 - 网站：待上线
 
 ---
