@@ -42,7 +42,11 @@
 
 当前 TALOS 围绕个人与企业的数据管理、学习路径和大模型实际应用演进。首版以规范方案包与 Obsidian 插件配套，完整产品仍在建设与验证。
 
-本仓库保留早期实现和交互经验，不是新首版安装入口，也不恢复功能维护。当前方向见 [TALOS Framework](https://github.com/Hanhan758/talos-framework)；公开框架 [v0.5 正式版](https://github.com/Hanhan758/talos-framework/releases/tag/v0.5)已发布，完整软件首版仍在建设与验证。
+本仓库保留早期实现和交互经验，不是当前安装入口，也不恢复功能维护。如果你在寻找当前持续迭代的 TALOS 产品与资料，请前往以下公开仓库：
+
+- **Obsidian 原生 AI 工作台插件**：[WAINAO-Haaper/talos-plugin](https://github.com/WAINAO-Haaper/talos-plugin)（支持 macOS / Windows，承接并大幅扩展了本仓库的控制台与工作台方向）
+- **TALOS 超级大脑资料库测试包**：[Hanhan758/talos-superbrain-releases](https://github.com/Hanhan758/talos-superbrain-releases)（macOS 资料库框架与八插件测试版分发）
+- **公开框架、理念与基础模板**：[Hanhan758/talos-framework](https://github.com/Hanhan758/talos-framework)（公开框架 [v0.5 正式版](https://github.com/Hanhan758/talos-framework/releases/tag/v0.5)已发布）
 
 ## ✨ 特性
 
